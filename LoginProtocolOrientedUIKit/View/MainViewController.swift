@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  LoginProtocolOrientedUIKit
 //
 //  Created by Beyza Nur Tekerek on 12.10.2024.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainViewController : UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .gray
     }
 
-
 }
-
